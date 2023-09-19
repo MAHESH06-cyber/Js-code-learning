@@ -25,3 +25,7 @@ let booleanIsLoggedIn = Boolean(isLoggedIn)
 let value = 3
 let negValue = -value
 console.log(negValue); 
+
+let gameCount = 12
+++gameCount;
+console.log(gameCount);
