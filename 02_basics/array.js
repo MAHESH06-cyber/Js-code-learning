@@ -8,16 +8,29 @@ const newArray = [12, 3, 45, 67, 8, 90, 43, 33];
 // let q = myArray.concat(newArray)
 // console.log(q);
 
-const num_ber = [...myArray, ...newArray]
-console.log(num_ber);
+// slice and splice 
+let A = [1, 3, 4, 6, 8, 9];
+const s1 = A.slice(0, 4);
+console.log("slice ", s1); // return a section of an array
+console.log("A", A);
 
-console.log(Array.isArray("Mahesh"))
-console.log(Array.from("Mahesh"))
-console.log(Array.from({ name: "Mahesh" }))
+
+const s2 = A.splice(1, 3);
+console.log("splice ", s2); // return a deleted section of an original array
+console.log("A ", A);
+
+
+
+const num_ber = [...myArray, ...newArray]
+// console.log(num_ber);
+
+// console.log(Array.isArray("Mahesh"))
+// console.log(Array.from("Mahesh"))
+// console.log(Array.from({ name: "Mahesh" }))
 
 let score1 = 100
 let score2 = 200
 let score3 = 300
 
-console.log(Array.of(score1, score2, score3));
+// console.log(Array.of(score1, score2, score3));
 
